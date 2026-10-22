@@ -1,0 +1,18 @@
+# Credentials (Wi-Fi password, Gmail App Password) - never commit
+secrets.h
+
+# Build output (arduino-cli / PlatformIO)
+build/
+.pio/
+*.bin
+*.elf
+*.map
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
